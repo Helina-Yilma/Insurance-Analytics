@@ -3,6 +3,7 @@
 
 # Data directory (Raw and Processed data is managed by DVC, NOT Git)
 data/
+data/processed/MachineLearningRating_v3.csv
 
 # Python Virtual Environment
 venv/
@@ -17,3 +18,4 @@ venv/
 !dvc.yaml
 !.dvc/
 !dvc.lock
+!data/processed/*.dvc
